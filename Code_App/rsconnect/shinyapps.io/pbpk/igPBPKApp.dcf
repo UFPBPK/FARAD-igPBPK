@@ -1,0 +1,14 @@
+name: igPBPKApp
+title: igPBPKApp
+username:
+account: pbpk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4849306
+bundleId: 5204504
+url: https://pbpk.shinyapps.io/igPBPKApp/
+when: 1635886462.08473
+lastSyncTime: 1635886462.08473
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData

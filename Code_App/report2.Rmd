@@ -1,0 +1,19 @@
+---
+title: "Florfenicol PBPK Model Output for Cattle"
+
+---
+
+
+The plots for Muscle, Liver, and Kidney respectively
+
+```{r plotl, fig.height = 5, fig.width = 10, echo=FALSE, warning=FALSE}
+
+r3()[2]
+
+r3()[4]
+
+r3()[6]
+
+```
+
+Note: we would like to notify that by providing a withdrawal interval recommendation, it could be interpreted as advising/prescribing extra label drug use which requires a valid veterinary client patient relationship. In addition, the prescribing or advising veterinarian will be held responsible for any violative residues.   
