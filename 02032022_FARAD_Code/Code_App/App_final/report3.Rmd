@@ -1,0 +1,31 @@
+---
+title: "`r get_report ()[2]` PBPK Model Output for `r get_report ()[1]`"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(shiny)
+library(rmarkdown)
+```
+
+The results were achieved using the population PBPK model of `r get_report ()[2]` in `r get_report ()[1]`. 
+These results were based on the Monte Carlo simulation of `r get_report ()[4]` animals after exposure to `r get_report ()[2]` via the `r get_report ()[6]` administration at `r get_report ()[5]` mg/kg for `r get_report ()[7]` doses with `r get_report ()[8]`-hour intervals in `r get_report ()[1]`.
+
+
+According to FDA guidelines, if the estimated WDI is a fraction of a day, it should be rounded up to the next whole day.
+
+**Thus, the recommended extended withdrawal interval (WDI) is `r get_report()[13]` , `r get_report()[15]`, `r get_report()[14]` days if we consider liver, kidney, or muscle as the target tissue.** It is recommended that the highest of these three interval should be used as the extended withdrawal interval from the food safety perspective. 
+
+
+
+The plots for Liver, Kidney, and Muscle respectively
+
+```{r plotl, echo=FALSE, fig.height=5, fig.width=10, message=FALSE, warning=FALSE}
+
+plot_output_2()[1]
+plot_output_2()[2]
+plot_output_2()[3]
+
+```
