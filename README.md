@@ -4,6 +4,7 @@
 # This manuscript is acceptable pending revision by Toxicological Sciences.
 
 1.	Project folders
+
 •	"Code_App": This folder is used to run APP. 
 a)	R file for "Server" and "ui": These are R Shiny files that are used to launch the "App". 
 b)	R file for "GenPBPK": This is the generic PBPK model code based on the Mrgsolve package. 
@@ -36,6 +37,7 @@ f)	R file for "Kpfun_Berez, Kpfun_PT, Kpfun_Qppr, Kpfun_RR, Kpfun_Schmitt": Thes
 g)	R file for "GenPBPK": This is a generic PBPK model code based on the Mrgsolve package.
 
 2.	Instructions on the model code
+
 •	This instruction can be separated into three parts, including Part I: Model fitting; Part II: reproducing all results presented in the figures and tables in the manuscript and Part III: Run APP
 •	Before you run all the codes, you need to check (1) R version (make sure the R version > 4.0) and (2) install some required packages: “FME”, “ggplot2”, “mrgsolve”, “dplyr”, “tidyr”, “patchwork”, “ggprism”.
 
